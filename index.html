@@ -115,17 +115,253 @@
         <a class="back-btn" onclick="showProgram('btech')">← Back to Semesters</a>
         <h1>B.Tech SEM-1</h1>
         <div class="subject-grid">
-          <div class="subject-box">CHM181</div>
-          <div class="subject-box">MAM181</div>
-          <div class="subject-box">MEM101</div>
-          <div class="subject-box">MEM102</div>
-          <div class="subject-box">MEM103</div>
-          <div class="subject-box">MEM104</div>
-          <div class="subject-box">PHM181</div>
-          <div class="subject-box">PHM182</div>
-          <div class="subject-box">ECH181</div>
-          <div class="subject-box">BBH101</div>
-          <div class="subject-box">RDC181</div>
+          <div class="subject-box" onclick="showSubject('chm181')">CHM181</div>
+          <div class="subject-box" onclick="showSubject('mam181')">MAM181</div>
+          <div class="subject-box" onclick="showSubject('mem101')">MEM101</div>
+          <div class="subject-box" onclick="showSubject('mem102')">MEM102</div>
+          <div class="subject-box" onclick="showSubject('mem103')">MEM103</div>
+          <div class="subject-box" onclick="showSubject('mem104')">MEM104</div>
+          <div class="subject-box" onclick="showSubject('phm181')">PHM181</div>
+          <div class="subject-box" onclick="showSubject('phm182')">PHM182</div>
+          <div class="subject-box" onclick="showSubject('ech181')">ECH181</div>
+          <div class="subject-box" onclick="showSubject('bbh101')">BBH101</div>
+          <div class="subject-box" onclick="showSubject('rdc181')">RDC181</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHM181 SUBJECT PAGE -->
+    <section id="chm181" class="hero hidden">
+      <div class="card">
+        <a class="back-btn" onclick="showSemester('btech-sem1')">← Back to SEM-1</a>
+        <h1>CHM181</h1>
+        <div class="subject-grid">
+          <div class="subject-box">CT-1+Soln</div>
+          <div class="subject-box">CT-2+Soln</div>
+          <div class="subject-box">End-Sem+Soln</div>
+          <div class="subject-box" style="background:linear-gradient(135deg,rgba(124,58,237,0.15),rgba(6,182,212,0.15))">
+            <strong>Notes</strong><br>
+            <div style="font-size:13px;margin-top:8px;line-height:1.8">
+              Unit-1<br>Unit-2<br>Unit-3<br>Unit-4<br>Unit-5<br>Complete Notes
+            </div>
+          </div>
+          <div class="subject-box" style="background:linear-gradient(135deg,rgba(6,182,212,0.15),rgba(124,58,237,0.15))">
+            <strong>QB Solution</strong><br>
+            <div style="font-size:13px;margin-top:8px;line-height:1.8">
+              QB CHM-181<br>Unit-4<br>Unit-5
+            </div>
+          </div>
+          <div class="subject-box">Books<br><span style="font-size:13px">Jain & Jain</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAM181 SUBJECT PAGE -->
+    <section id="mam181" class="hero hidden">
+      <div class="card">
+        <a class="back-btn" onclick="showSemester('btech-sem1')">← Back to SEM-1</a>
+        <h1>MAM181</h1>
+        <div class="subject-grid">
+          <div class="subject-box">CT-1+Soln</div>
+          <div class="subject-box">CT-2+Soln</div>
+          <div class="subject-box">End-Sem+Soln</div>
+          <div class="subject-box" style="background:linear-gradient(135deg,rgba(124,58,237,0.15),rgba(6,182,212,0.15))">
+            <strong>Notes</strong><br>
+            <div style="font-size:13px;margin-top:8px;line-height:1.8">
+              Unit-1<br>Unit-2<br>Unit-3<br>Unit-4<br>Unit-5
+            </div>
+          </div>
+          <div class="subject-box" style="background:linear-gradient(135deg,rgba(6,182,212,0.15),rgba(124,58,237,0.15))">
+            <strong>QB Solution</strong><br>
+            <div style="font-size:13px;margin-top:8px;line-height:1.8">
+              Question Bank<br>Unit-1<br>Unit-2<br>Unit-3<br>Unit-4<br>Unit-5
+            </div>
+          </div>
+          <div class="subject-box">
+            <strong>Books</strong><br>
+            <div style="font-size:13px;margin-top:8px;line-height:1.8">
+              BS GREWAL<br>Book-1<br>Book-2
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEM101 SUBJECT PAGE -->
+    <section id="mem101" class="hero hidden">
+      <div class="card">
+        <a class="back-btn" onclick="showSemester('btech-sem1')">← Back to SEM-1</a>
+        <h1>MEM101</h1>
+        <div class="subject-grid">
+          <div class="subject-box">CT-1+Soln</div>
+          <div class="subject-box">CT-2+Soln</div>
+          <div class="subject-box">End-Sem+Soln</div>
+          <div class="subject-box" style="background:linear-gradient(135deg,rgba(124,58,237,0.15),rgba(6,182,212,0.15))">
+            <strong>Lecture Videos</strong><br>
+            <div style="font-size:12px;margin-top:8px;line-height:1.6;max-height:200px;overflow-y:auto">
+              L1-L3<br>L2-L3<br>L4<br>L5<br>L6<br>L7<br>L8<br>L9<br>L10<br>L11<br>L12<br>L13<br>L14<br>L15<br>L16<br>L17<br>L18<br>L19<br>L21-L22<br>L23-L25<br>L26<br>L27-L30<br>L31-L33<br>L34<br>L35-L39
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEM102 SUBJECT PAGE -->
+    <section id="mem102" class="hero hidden">
+      <div class="card">
+        <a class="back-btn" onclick="showSemester('btech-sem1')">← Back to SEM-1</a>
+        <h1>MEM102</h1>
+        <div class="subject-grid">
+          <div class="subject-box" style="background:linear-gradient(135deg,rgba(6,182,212,0.15),rgba(124,58,237,0.15))">
+            <strong>Sheet Solution Videos</strong><br>
+            <div style="font-size:13px;margin-top:8px;line-height:1.8">
+              Projection of Lines<br>Projection of Planes<br>Engineering Curves<br>Projection Of Solids
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEM103 SUBJECT PAGE -->
+    <section id="mem103" class="hero hidden">
+      <div class="card">
+        <a class="back-btn" onclick="showSemester('btech-sem1')">← Back to SEM-1</a>
+        <h1>MEM103</h1>
+        <div class="subject-grid">
+          <div class="subject-box">CT-1+Soln</div>
+          <div class="subject-box">CT-2+Soln</div>
+          <div class="subject-box">End-Sem+Soln</div>
+          <div class="subject-box" style="background:linear-gradient(135deg,rgba(124,58,237,0.15),rgba(6,182,212,0.15))">
+            <strong>Notes</strong><br>
+            <div style="font-size:13px;margin-top:8px;line-height:1.8">
+              Unit-1<br>Unit-2<br>Unit-3<br>Unit-4<br>Unit-5
+            </div>
+          </div>
+          <div class="subject-box">Question-Bank</div>
+          <div class="subject-box">Notes+Quizes+Stimulations</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEM104 SUBJECT PAGE -->
+    <section id="mem104" class="hero hidden">
+      <div class="card">
+        <a class="back-btn" onclick="showSemester('btech-sem1')">← Back to SEM-1</a>
+        <h1>MEM104</h1>
+        <div class="subject-grid">
+          <div class="subject-box" style="background:linear-gradient(135deg,rgba(6,182,212,0.15),rgba(124,58,237,0.15))">
+            <strong>Carpentary Shop</strong><br>
+            <div style="font-size:13px;margin-top:8px">
+              Carpentary Shop
+            </div>
+          </div>
+          <div class="subject-box" style="background:linear-gradient(135deg,rgba(124,58,237,0.15),rgba(6,182,212,0.15))">
+            <strong>Machine Shop</strong><br>
+            <div style="font-size:13px;margin-top:8px;line-height:1.8">
+              P-1 Vernier Calliper<br>P-2 Lathe<br>P-3 Drilling<br>P-4 Grinding
+            </div>
+          </div>
+          <div class="subject-box" style="background:linear-gradient(135deg,rgba(6,182,212,0.15),rgba(124,58,237,0.15))">
+            <strong>Smithy Shop</strong><br>
+            <div style="font-size:13px;margin-top:8px;line-height:1.8">
+              P-1 Moulding<br>P-2 Fitting<br>P-3 Welding
+            </div>
+          </div>
+          <div class="subject-box">Workshop File</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHM181 SUBJECT PAGE -->
+    <section id="phm181" class="hero hidden">
+      <div class="card">
+        <a class="back-btn" onclick="showSemester('btech-sem1')">← Back to SEM-1</a>
+        <h1>PHM181</h1>
+        <div class="subject-grid">
+          <div class="subject-box">CT-1+Soln</div>
+          <div class="subject-box">CT-2+Soln</div>
+          <div class="subject-box">End-Sem+Soln</div>
+          <div class="subject-box" style="background:linear-gradient(135deg,rgba(124,58,237,0.15),rgba(6,182,212,0.15))">
+            <strong>Lecture Videos</strong><br>
+            <div style="font-size:13px;margin-top:8px;line-height:1.8">
+              Unit-1<br>Unit-2<br>Unit-3<br>Unit-4<br>Unit-5
+            </div>
+          </div>
+          <div class="subject-box" style="background:linear-gradient(135deg,rgba(6,182,212,0.15),rgba(124,58,237,0.15))">
+            <strong>Notes</strong><br>
+            <div style="font-size:12px;margin-top:8px;line-height:1.6">
+              Unit-1 (Sample-1)<br>Unit-1 (Sample-2)<br>Unit-2 (Sample-1)<br>Unit-2 (Sample-2)<br>Unit-3 (Sample-1)<br>Unit-3 (Sample-2)<br>Unit-4 (Sample-1)<br>Unit-4 (Sample-2)<br>Unit-5 (Sample-1)<br>Unit-5 (Sample-2)
+            </div>
+          </div>
+          <div class="subject-box" style="background:linear-gradient(135deg,rgba(124,58,237,0.15),rgba(6,182,212,0.15))">
+            <strong>QB Solution</strong><br>
+            <div style="font-size:13px;margin-top:8px;line-height:1.8">
+              QB-PHM181<br>Unit-1<br>Unit-2<br>Unit-3<br>Unit-4<br>Unit-5
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHM182 SUBJECT PAGE -->
+    <section id="phm182" class="hero hidden">
+      <div class="card">
+        <a class="back-btn" onclick="showSemester('btech-sem1')">← Back to SEM-1</a>
+        <h1>PHM182</h1>
+        <div class="subject-grid">
+          <div class="subject-box">Ex-1 Polarimeter</div>
+          <div class="subject-box">Ex-2 Nodal Slide</div>
+          <div class="subject-box">Ex-3 Newton's Ring</div>
+          <div class="subject-box">Ex-4 Diffraction Grating</div>
+          <div class="subject-box">Ex-5 Fresnel Biprism</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ECH181 SUBJECT PAGE -->
+    <section id="ech181" class="hero hidden">
+      <div class="card">
+        <a class="back-btn" onclick="showSemester('btech-sem1')">← Back to SEM-1</a>
+        <h1>ECH181</h1>
+        <div class="subject-grid">
+          <div class="subject-box">CT-1+Soln</div>
+          <div class="subject-box">CT-2+Soln</div>
+          <div class="subject-box">End-Sem+Soln</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BBH101 SUBJECT PAGE -->
+    <section id="bbh101" class="hero hidden">
+      <div class="card">
+        <a class="back-btn" onclick="showSemester('btech-sem1')">← Back to SEM-1</a>
+        <h1>BBH101</h1>
+        <div class="subject-grid">
+          <div class="subject-box">CT-2</div>
+          <div class="subject-box">End-Sem</div>
+          <div class="subject-box" style="background:linear-gradient(135deg,rgba(124,58,237,0.15),rgba(6,182,212,0.15))">
+            <strong>Notes</strong><br>
+            <div style="font-size:13px;margin-top:8px;line-height:1.8">
+              Complete Notes<br>Unit-1<br>Unit-2<br>Unit-3<br>Unit-4<br>Unit-5
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RDC181 SUBJECT PAGE -->
+    <section id="rdc181" class="hero hidden">
+      <div class="card">
+        <a class="back-btn" onclick="showSemester('btech-sem1')">← Back to SEM-1</a>
+        <h1>RDC181</h1>
+        <div class="subject-grid">
+          <div class="subject-box">CT</div>
+          <div class="subject-box" style="background:linear-gradient(135deg,rgba(6,182,212,0.15),rgba(124,58,237,0.15))">
+            <strong>Notes</strong><br>
+            <div style="font-size:13px;margin-top:8px;line-height:1.8">
+              Syllabus<br>Levelling-1<br>Levelling-2<br>Book
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -345,6 +581,10 @@
     function showSemester(sem){
       document.querySelectorAll('section').forEach(s=>s.classList.add('hidden'));
       document.getElementById(sem).classList.remove('hidden');
+    }
+    function showSubject(subj){
+      document.querySelectorAll('section').forEach(s=>s.classList.add('hidden'));
+      document.getElementById(subj).classList.remove('hidden');
     }
   </script>
 </body>
